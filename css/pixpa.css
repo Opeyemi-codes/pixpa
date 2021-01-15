@@ -24,6 +24,18 @@ body {
     width: auto;
     }
 }
+@media screen and (max-width: 550px){
+    body {
+        width: 100%;
+    }
+    .head {
+    background-image: url('../Images/poster.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: auto;
+    }
+}
 .port {
     display: inline;
     padding-top: 10px;
@@ -90,6 +102,15 @@ li {
         width: auto;
     }
 }
+@media screen and (max-width: 550px) {
+    .start {
+        visibility: hidden;
+    }
+    .trail {
+        margin-top: -20px;
+        width: auto;
+    }
+}
 
 
 /******** PHASE TWO *************/
@@ -107,6 +128,11 @@ li {
     
 }
 @media screen and (max-width: 350px) {
+    .sec1 {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px) {
     .sec1 {
         width: 100%;
     }
@@ -169,6 +195,35 @@ textarea {
     
 }
 @media screen and (max-width: 350px) {
+    .aside {
+        width: 100%;
+        text-align: center;
+        
+    }
+    .sec1 p {
+        font-size :.8rem;
+        font-weight: normal;
+    }
+    input#name {
+        width: 80%;
+        padding: 15px;
+        border: none;
+        
+    }
+    textarea {
+       width: 80%;
+       margin-right: auto;
+       margin-left: auto;
+       float: none;
+    }
+    .sub {
+        display: block;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 550px) {
     .aside {
         width: 100%;
         text-align: center;
